@@ -47,10 +47,10 @@ body{
 }
 
 footer {
-    padding-top: 20px;
+    padding-top: 60px;
     padding-right: 60px;
     margin-top: 50px;
-    height: 200px;
+    height: 250px;
     background-color: royalblue;
 } 
 
@@ -66,5 +66,13 @@ footer a{
     background-color: lightblue;
     text-decoration-color: black;
 }
-
+.tablinks{
+    width: 70px;
+    height: 50px;
+}
+.single-footer-widget button{
+    color:black;
+    background-color: blanchedalmond;
+    margin-top: 5px;
+}
 

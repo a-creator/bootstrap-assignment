@@ -154,6 +154,15 @@
     </div>
   </section>
   <!--end-jumbotron-section-->
+
+  <section class="container">
+    <h2>Specifications</h2> 
+    <div class="card">
+    <div class="card-body">
+      Please enter your laptop specifications !!!
+    </div>
+  </div><br>
+  </section><br>
     
   <!--gridstyle-section-->
   <div class="container">
@@ -170,9 +179,54 @@
           <img src="img/coomu.jpg" class="card-img-top" alt="online-help">
           <p class="card-text"><strong>ONLINE HELP-</strong>Our online technology experts provide professional services with years of online service experience. the capital of Kodagu(Coorg).</p>
         </div>
-    </div>
-  </div>
+    </div><br>
+  </div><br>
   <!--end-gridstyle-section-->
+  
+  <section class="container">
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Dell</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Lenovo</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">hp</button><hr>
+  </div>
+  
+  <div id="London" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright"></span>
+    <h3>Dell</h3>
+    <p>Dell is an American multinational computer technology company based in Round Rock.</p>
+  </div>
+  
+  <div id="Paris" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright"></span>
+    <h3>Lenovo</h3>
+    <p>Lenovo is a Chinese multinational technology company with headquarters in Beijing.</p> 
+  </div>
+  
+  <div id="Tokyo" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright"></span>
+    <h3>hp</h3>
+    <p>The Hewlett-Packard Company (commonly referred to as HP.</p>
+  </div>
+  </section>
+  
+  <script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
 
   <!-- start footer Area -->		
   <footer class="footer-area section-gap">
@@ -194,7 +248,7 @@
           <div class="" id="mc_embed_signup">
             <form target="_blank" novalidate="true" action="#" method="get" class="form-inline">
               <input class="form-control" name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" required="" type="email">
-                              <button class="click-btn"><i class="lnr lnr-arrow-right" aria-hidden="true"></i></button>
+              <button type="button" class="btn btn-outline-primary">Submit</button>
                               <div style="position: absolute; left: -5000px;">
                   <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
                 </div>
