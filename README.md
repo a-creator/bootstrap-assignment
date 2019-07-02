@@ -25,3 +25,5 @@ web page on laptop services is created using bootstrap 4
   Tabbed pane
   Modal
   Additional elements (ex: Google map)
+  
+  https://a-creator.github.io/bootstrap-assignment/

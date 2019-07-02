@@ -1,24 +1,32 @@
-
+/* header style arrangement */
 header{
     font-family: 'Righteous', cursive;
     background-color: royalblue;
 }
+
+/*body font family edited*/
 body{
     font-family: 'Righteous', cursive; 
 }
 
+/*navbar brand image size adjusted*/
 .navbar-brand img{
     height: 60px;
     width: 60px;
 }
 
+/*anchor tag font size*/
  a{
-     font-size: 20px;
+     font-size: 20px; 
 }
+
+/*anchor tag hover added */
  a:hover{
      text-decoration: underline;
      color: rgb(2, 0, 0);    
  }
+
+ /*jumbotron allignment*/
 .jumbotron-section{ 
     text-align: center;
     padding: 30px;
@@ -26,13 +34,14 @@ body{
 .jumbotron p{
     font-size: 16px;
 }
+
+/*grid styling*/
 .gridstyle{
     margin-left: 150px;    
 }
 .gridstyle .card{
     overflow: hidden;
 }
-
 .gridstyle img
 {
    height:25vh;
@@ -41,11 +50,13 @@ body{
   margin:0px 0px 0px 1px; 
 }
 
+/*modal-header allignment*/
 .modal-header{
     background-color: rgb(119, 221, 119);
     text-decoration-color: black;
 }
 
+/*footer styling*/
 footer {
     padding-top: 60px;
     padding-right: 60px;
@@ -53,7 +64,6 @@ footer {
     height: 250px;
     background-color: royalblue;
 } 
-
 footer a{
     color: blue;
     font-size: 50px;
@@ -62,14 +72,20 @@ footer a{
 .modal-dialog{
     padding-top: 15%;
 }
+
+/*modal body decorated*/
 .modal-body{
     background-color: lightblue;
     text-decoration-color: black;
 }
+
+/*tab links added*/
 .tablinks{
     width: 70px;
     height: 50px;
 }
+
+/*footer widget added*/
 .single-footer-widget button{
     color:black;
     background-color: blanchedalmond;
